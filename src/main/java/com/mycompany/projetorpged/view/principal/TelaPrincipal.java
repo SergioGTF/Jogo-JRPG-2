@@ -1,6 +1,7 @@
 package com.mycompany.projetorpged.view.Principal;
 
 import com.mycompany.projetorpged.controller.JogadorController;
+import com.mycompany.projetorpged.view.cad_login.TelaCadastroJogador;
 import com.mycompany.projetorpged.view.cad_login.TelaLoginJogador;
 
 public class TelaPrincipal extends javax.swing.JFrame {
@@ -107,9 +108,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void BotaoCadastroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BotaoCadastroActionPerformed
-        TelaLoginJogador telaLogin = new TelaLoginJogador(this.jogadorController);
-        telaLogin.setVisible(true);
-        jDesktopPane1Principal.add(telaLogin);
+        TelaCadastroJogador telaCadastro = new TelaCadastroJogador(this.jogadorController);
+        telaCadastro.setVisible(true);
+        jDesktopPane1Principal.add(telaCadastro);
     }//GEN-LAST:event_BotaoCadastroActionPerformed
 
    
